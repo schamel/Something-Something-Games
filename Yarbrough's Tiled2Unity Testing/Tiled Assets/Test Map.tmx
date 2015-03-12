@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="70" tileheight="70" nextobjectid="15">
+ <tileset firstgid="1" name="Background Tiles" tilewidth="70" tileheight="70" spacing="2">
+  <image source="bg_spritesheet.png" width="214" height="142"/>
+ </tileset>
+ <tileset firstgid="7" name="Foreground Tiles" tilewidth="70" tileheight="70" spacing="2">
+  <image source="tiles_spritesheet.png" width="862" height="934"/>
+  <tile id="24">
+   <properties>
+    <property name="object" value="ItemBlock"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.125" y="-0.125" width="70" height="40.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="56">
+   <objectgroup draworder="index">
+    <object id="0" x="0.125" y="-0.5" width="69.875" height="40.625"/>
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="69.875" height="40.125"/>
+   </objectgroup>
+  </tile>
+  <tile id="103">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="152">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Background" width="20" height="10">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,
+1,1,1,1,1,1,2,1,1,1,1,1,1,1,4,5,6,1,1,1,
+1,1,1,1,1,4,5,6,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer name="Foreground" width="20" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,75,63,63,51,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+110,110,110,110,110,110,110,110,110,110,110,110,110,110,110,110,110,110,110,110,
+159,159,159,159,159,159,159,159,159,159,159,159,159,159,159,159,159,159,159,159
+</data>
+ </layer>
+ <objectgroup name="Item Blocks">
+  <object id="9" gid="31" x="210" y="420"/>
+  <object id="10" gid="31" x="840" y="210"/>
+ </objectgroup>
+</map>
