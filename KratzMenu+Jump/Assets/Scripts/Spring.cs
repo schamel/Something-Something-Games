@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Spring : MonoBehaviour
@@ -9,7 +10,7 @@ public class Spring : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-	
+
 	}
 	
 	// Update is called once per frame
@@ -68,4 +69,6 @@ public class Spring : MonoBehaviour
 		Vector2 extraForce = springDirection * force;
 		rigidBody.AddForce (extraForce);
 	}
+
+
 }

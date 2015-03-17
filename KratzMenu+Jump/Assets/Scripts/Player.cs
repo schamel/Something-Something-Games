@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 	private KeyCode JumpButton1;
 	private KeyCode JumpButton2;
 	private KeyCode JumpButton3;
-	public bool    JumpB, grounded;
+	private bool    JumpB, grounded;
 	public float   JumpF;
 
 
