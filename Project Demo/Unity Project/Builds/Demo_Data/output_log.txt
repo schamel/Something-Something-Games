@@ -1,0 +1,20 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7900 Series (ID=0x679a)
+    Vendor:   ATI
+    VRAM:     3030 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\My Documents\School\College\Current Classes\CS 4096 (Software System Development)\Something-Something-Games\Project Demo\Unity Project\Builds\Demo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\My Documents\School\College\Current Classes\CS 4096 (Software System Development)\Something-Something-Games\Project Demo\Unity Project\Builds\Demo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\My Documents\School\College\Current Classes\CS 4096 (Software System Development)\Something-Something-Games\Project Demo\Unity Project\Builds\Demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\My Documents\School\College\Current Classes\CS 4096 (Software System Development)\Something-Something-Games\Project Demo\Unity Project\Builds\Demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\My Documents\School\College\Current Classes\CS 4096 (Software System Development)\Something-Something-Games\Project Demo\Unity Project\Builds\Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\My Documents\School\College\Current Classes\CS 4096 (Software System Development)\Something-Something-Games\Project Demo\Unity Project\Builds\Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.062 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1200 60Hz; virtual: 5120x2400 at -3200,-1200
+<RI> Initialized touch support.
+Platform assembly: D:\My Documents\School\College\Current Classes\CS 4096 (Software System Development)\Something-Something-Games\Project Demo\Unity Project\Builds\Demo_Data\Managed\System.Core.dll (this message is harmless)
