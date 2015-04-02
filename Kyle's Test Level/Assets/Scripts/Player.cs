@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-	
+
 	}
 
 	// FixedUpdate is called once per fixed frame, and should be used for physics calculations

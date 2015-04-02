@@ -46,6 +46,6 @@ public class DashRing : MonoBehaviour
 		
 		// Add the extra ring force.
 		Vector2 extraForce = ringDirection * force;
-		rigidBody.AddForce (extraForce);
+		rigidBody.AddForce (extraForce);		
 	}
 }

@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\DashPanel.cs" />
      <Compile Include="Assets\Scripts\DashRing.cs" />
+     <Compile Include="Assets\Scripts\DefyGrav.cs" />
      <Compile Include="Assets\Scripts\JumpPad.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Spring.cs" />
