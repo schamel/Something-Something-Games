@@ -23,8 +23,7 @@ public class Tooltip : MonoBehaviour {
 	void OnMouseOver(){
 
 		//Set the position of the tooltip
-		tooltip.transform.position = new Vector2(Input.mousePosition.x + 30, Input.mousePosition.y+10);
-		tipbackground.transform.position = tooltip.transform.position;
+		tipbackground.transform.position = new Vector2(Input.mousePosition.x + 30, Input.mousePosition.y+10);
 	
 		//determine tooltip by tag;
 		switch (tg) {

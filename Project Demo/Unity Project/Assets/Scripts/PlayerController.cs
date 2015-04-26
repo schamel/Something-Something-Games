@@ -8,10 +8,15 @@ public class PlayerController : MonoBehaviour
 
 	private Rigidbody2D _rigidBody;
 	public Vector3 respawnLocation;
-	public bool grounded = true;
+	public bool grounded;
+
+	Transform groundCheck;
 
 	void Start ()
 	{
+		//Get The GroundCheck
+		groundCheck = transform.Find("GroundCheck");
+
 		// Cache the rigidbody componenet
 		_rigidBody = GetComponent<Rigidbody2D> ();
 		
@@ -21,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
+		grounded = Physics2D.Linecast(transform.position, groundCheck.position);
 	}
 
 	void FixedUpdate ()
@@ -31,7 +37,6 @@ public class PlayerController : MonoBehaviour
 		
 		if (grounded && (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.UpArrow))) {
 			moveVertical = jumpHeight;
-			grounded = false;
 		}
 		
 		_rigidBody.AddForce (new Vector2 (moveHorizontal, moveVertical) * Time.deltaTime);
@@ -43,9 +48,6 @@ public class PlayerController : MonoBehaviour
 	
 	void OnCollisionEnter2D (Collision2D other)
 	{
-		// This needs to be changed to make sure the object is below the player
-		grounded = true;
-
 		switch (other.gameObject.tag) {
 		case "Deadly":
 			transform.localPosition = respawnLocation;
