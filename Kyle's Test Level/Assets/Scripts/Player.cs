@@ -11,6 +11,12 @@ public class Player : MonoBehaviour
 	bool grounded;
 	Vector2 groundpt;
 
+	bool grounded = false;
+	public Transform groundCheck;
+	float groundRadius = 0.2f;
+	public LayerMask whatIsGround;
+	public float jumpForce = 350;
+	public Transform respawnPoint;
 	// Use this for initialization
 	void Start ()
 	{
@@ -20,15 +26,26 @@ public class Player : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
+<<<<<<< HEAD
 	
+=======
+		if (grounded && Input.GetKeyDown(KeyCode.Space)) 
+		{
+			_rigidBody.AddForce(new Vector2(0, jumpForce));
+		}
+>>>>>>> origin/master
 	}
 
 	// FixedUpdate is called once per fixed frame, and should be used for physics calculations
 	void FixedUpdate ()
 	{
+<<<<<<< HEAD
 		groundpt.x = transform.position.x;
 		groundpt.y = transform.position.y - 0.66f;
 		grounded = Physics2D.Linecast (transform.position, groundpt, myMask);
+=======
+		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+>>>>>>> origin/master
 
 		float hInput = Input.GetAxis ("Horizontal");
 		_rigidBody.AddForce (new Vector2 (hInput * speed * Time.deltaTime, 0));
@@ -42,7 +59,7 @@ public class Player : MonoBehaviour
 	{
 		switch (trigger.gameObject.tag) {
 		case "Respawn":
-			transform.position = new Vector2 (0, 0.5f);
+			transform.position = respawnPoint.position;
 			_rigidBody.velocity = new Vector2 (_rigidBody.velocity.x, 0);
 			break;
 		}
