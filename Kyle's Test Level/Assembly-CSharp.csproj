@@ -51,11 +51,16 @@
      <Compile Include="Assets\Scripts\DashRing.cs" />
      <Compile Include="Assets\Scripts\DefyGrav.cs" />
      <Compile Include="Assets\Scripts\JumpPad.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PseudoOneWayFloor.cs" />
      <Compile Include="Assets\Scripts\PsuedoLoop.cs" />
      <Compile Include="Assets\Scripts\Spring.cs" />
      <Compile Include="Assets\Scripts\Switch.cs" />
+     <Compile Include="Assets\Scripts\Togglepanel.cs" />
+     <Compile Include="Assets\Scripts\Tooltip.cs" />
+     <Compile Include="Assets\Scripts\loadlevel.cs" />
+     <Compile Include="Assets\Scripts\startbutton.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
