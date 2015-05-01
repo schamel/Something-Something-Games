@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="55" tilewidth="70" tileheight="70" backgroundcolor="#41434f" nextobjectid="1">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../Assets/Tiled2Unity/Textures/tiles_spritesheet.png" width="862" height="934"/>
+  <tile id="5">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 70,69.875 -0.25,70"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="17">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="29">
+   <objectgroup draworder="index">
+    <object id="0" x="70" y="-0.375">
+     <polygon points="0,0 -70.125,70.375 0.125,70.25"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="41">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="40.6364"/>
+   </objectgroup>
+  </tile>
+  <tile id="53">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.181818" y="-0.181818" width="70.1818" height="40.7273"/>
+   </objectgroup>
+  </tile>
+  <tile id="65">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.363636" y="-0.181818" width="70.4545" height="40.5455"/>
+   </objectgroup>
+  </tile>
+  <tile id="77">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.363636" y="-0.0909091" width="70.5455" height="40.3636"/>
+   </objectgroup>
+  </tile>
+  <tile id="88">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="89">
+   <objectgroup draworder="index">
+    <object id="0" x="69.7273" y="23.4545">
+     <polyline points="0,0 0.272727,-23.5455 -69.9091,-23.5455 -69.9091,46.4545 -45.6364,46.5455 -41.8182,38.9091 -35.4545,29.5455 -28.0909,20.9091 -20.9091,13.9091 -13.8182,8.63636 -5.90909,3.54545 -0.181818,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="100">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="101">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="-0.0909091">
+     <polyline points="0,0 70,0.0909091 69.8182,26.1818 68.9091,33 66,40.2727 61.0909,46.7273 55.3636,52.5455 49.1818,56.8182 41.8182,60.6364 34.0909,63.9091 24.4545,67 14.7273,68.7273 6.09091,69.6364 0,69.9091 -0.181818,0.181818"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="112">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.272727" y="-0.181818" width="70.3636" height="70.1818"/>
+   </objectgroup>
+  </tile>
+  <tile id="113">
+   <objectgroup draworder="index">
+    <object id="0" x="70" y="0">
+     <polyline points="-0.272727,0.0909091 -70,0.0909091 -70.0909,23.5455 -60,29.5455 -48.2727,37.5455 -37.0909,49.0909 -29.6364,59.2727 -24,69.7273 -0.0909091,69.9091 0.0909091,0.363636"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="125">
+   <objectgroup draworder="index">
+    <object id="0" x="69.8182" y="-0.0909091">
+     <polyline points="0,0 -70,0 -70,26.4545 -66.8182,38.9091 -59.4545,49.0909 -49.0909,56.6364 -34.2727,63.6364 -20,67.6364 0.363636,70.0909 0.181818,0.181818"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="137">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="148">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="152">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="157" name="loop" tilewidth="70" tileheight="70">
+  <image source="../Assets/Tiled2Unity/Textures/Untitled.png" width="140" height="140"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="69.875" y="-0.25">
+     <polyline points="0,0 -13.25,0.875 -24.25,3.875 -33.875,8.25 -42.5,13.625 -48.75,19.375 -53.75,25 -58.75,31.125 -65,42.75 -68.25,52.25 -70.5,70"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="0" x="70.625" y="70.25">
+     <polyline points="0,0 -1.375,-14.375 -5.125,-26.75 -12.125,-40.375 -20,-49 -30.5,-58.125 -39.5,-63.625 -50.625,-68 -61.375,-70.125 -70.75,-71"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object id="0" x="-0.125" y="-0.125">
+     <polyline points="0,0 1.375,18.375 6.625,31.75 13.125,41.625 21.875,51.375 29,57.375 35.5,61.375 44.375,65.875 54.125,68.625 70.375,70.75"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="0" x="0.125" y="70.5">
+     <polyline points="0,0 12.75,-1.125 25.125,-4.375 34.375,-8.5 43.625,-14.75 51.5,-22.625 58,-30.125 62.875,-38.875 67.375,-48.625 69.625,-61.25 70.25,-70.875"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="120" height="55">
+  <data encoding="base64" compression="zlib">
+   eJztXLFu3DAMFVCgyJwPyN7u7d6MHbI3e7u3H9APaOYOGXrnT22ERgDDkiIp0ZR08QMeznFkieSTZYnW3WNK6fHgwYNL888TT+C4BeX60Wy1fwSiYnZ+bu/zovZDroaImPwGbX195ntgwy04b2GU/ZS+2I6MOybGt8DfX0yZH40xmCU+uC0Mjzoj9a358vOJ34jzEKUvQL1LffB55hnzGfWFzzvsc4v91ucn1abkSw13zDGs85x8sCV7fLz0fQvsuAHncd/FaI2rN7R25Hv53lhnfp69ST5xH6VveSZnXIPzUt+dWd/8nP2YXs4teuocrZPFBqos5Vfpu3CecM+U9UDRBOvCzZWwHR7rpQ+ozpH6et2/nL5U2cSUpSDNQx8aSNUDbfCa72r67p5rQhxfSz/jrtXUmZiyHGp2XDXQ6pdXrLXw0px6Nm472Jsq1/bqG9HnPQjnnz2IzmFBwHU/xIauhXgt+uZ5iJfGEXHI9krPwPL/a3QtZ+tIf/bWV6txXlvCGHLlI3O51uccxGvSt2hcm5Ndoxji8vn/eY6/BcfFGkNKOw616zWw9HWqvZk4u7Ze+mrXKF+YOrjYZczy7nJFbb30hXpoIGmI66I01pS5BG0934lr9OWuy/iebLkGqu093vF7ah9933qiV18rtvRPby4v/q6xXg41nbX9aqvUsbq++X0Ndz+25AzLWk2ax3Lv1zFqZaV38rXruTznpemLy4ykxTZqfPB43x3pp8dYtpK+ONdwUylbxoeU+P01M/kGqR3PYDxq4+wq+sJ33Bk4L8fdC5yeM/nGkZsjnJKcj+P2ymBo29S00cuaXRQt+xtmZA0ajVv0pdD6rLDqX3ypjc2QcB6X0suxi/JtNmZQa9ASB0nj2t6sAk5fKk/VC0nvMkZrxmbK7trfmHvvvdf0bW6eCDUtf0u5Qw6cz9Q5aR+OFVQMsE176RsBy/hjuW8LtiT7w/lcu85bZ4wWfb32yXrC6oPmvqXyDT36WvdaPaDPljxHi77WnIrXfoAaWv2w2nYylodrK+teqyv02TvO7kXPPR8cemzbs69GxHe0vhEaR8dtRrtG6itp3JtDHK1vZM591vc5RWMuFtJ332qI9AHPL7fAtiltNXNCTf/wyqHtsR6O7qcjiOPWMkZIsfewcw+Mjr0mrj33B9RFq+tKv+kgYbR+Ej1yBtb7FV4D18S1urXr6miM1k8i9f1EK61tUnHxiF+U9p8a7RvFaDup9jh4tSnl5CL6ttfvTBz6/k/t9x89yO0DPhPnLl3fiHlzNLHdiTiO9E1qq4wr3Ke1vZ453azfjdDqq9k32Evr+mR7tov71AD6QOWSOHi9e5pFX+qct084blQcNfkmTitu/irZREGK3Yys9fnSz6Ef3j7h+iJiJrXBYUV9azaXY00fOPRdg4k53kuPEe8hJJs5XIK+0pwK+9TrI/Wd9ln1lWKxGhP63EPfEVzxNyT3jgOV91jVR2mezcEyl1+JZX052o4ocvs3R9t10Ictv5V3cB1egr5/AeOt+FU=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="120" height="55">
+  <data encoding="base64" compression="zlib">
+   eJzt26ERADAMA7HcZbvuP1BBJ0hBTKQJHpi6CgBI6nQAwKKTDoBPtgsAAAAAAAAAAAAAAAAATPknAgAAAAAAAMBzAS1OAOI=
+  </data>
+ </layer>
+</map>
