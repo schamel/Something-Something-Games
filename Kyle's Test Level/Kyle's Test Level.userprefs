@@ -1,26 +1,8 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Togglepanel.cs">
-    <Files>
-      <File FileName="Assets\Scripts\Togglepanel.cs" Line="15" Column="38" />
-      <File FileName="Assets\Scripts\Menu.cs" Line="33" Column="4" />
-      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DefyGrav.cs" Line="1" Column="1" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player.cs" Line="43" Column="46" />
-      <File FileName="Assets\Scripts\PsuedoLoop.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DefyGrav.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DashRing.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Spring.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\JumpPad.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DashPanel.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PseudoOneWayFloor.cs" Line="1" Column="1" />
->>>>>>> origin/master
+      <File FileName="Assets\Scripts\Player.cs" Line="11" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
