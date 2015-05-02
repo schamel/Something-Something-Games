@@ -22,6 +22,8 @@ public class Menu : MonoBehaviour
 	
 	public void EnterPassword (string password)
 	{
+		int level = 0;
+
 		// Make the password be all caps
 		password = password.ToUpper ();
 		
@@ -29,13 +31,15 @@ public class Menu : MonoBehaviour
 		if (password.Length >= 2 && password.Substring (0, 2) == "CE") {
 			PlayerPrefs.SetString ("Character", "Crazy Eight");
 			password = password.Substring (2);
+			level = 1;
 		} else {
 			PlayerPrefs.SetString ("Character", "Default");
 		}
 		
 		// Check which level the user wants to load and load it if it exists
-		int level = 0;
-		int.TryParse (password, out level);
+		if (password.Length > 0) {
+			int.TryParse (password, out level);
+		}
 
 		if (level > 0 && level < Application.levelCount) {
 			Application.LoadLevel ("Level " + level);
