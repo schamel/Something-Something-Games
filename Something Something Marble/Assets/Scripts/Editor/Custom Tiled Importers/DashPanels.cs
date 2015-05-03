@@ -43,6 +43,7 @@ class DashPanels : Tiled2Unity.ICustomTiledImporter
 		Vector3 position = gameObject.transform.localPosition;
 		position.x += 0.35f;
 		position.y += 0.35f;
+		position.z = -1.0f;
 		instance.transform.localPosition = position;
 		
 		// Remove the old object

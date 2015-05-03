@@ -112,13 +112,18 @@ public class PlayerController : MonoBehaviour
 		// Add the force to the player
 		_rigidbody.AddForce (new Vector2 (moveHorizontal, moveVertical) * Time.deltaTime);
 	}
-
+	
 	void OnTriggerEnter2D (Collider2D other)
 	{
+		switch (other.gameObject.tag) {
+		case "Check Point":
+			_respawnLocation = other.gameObject.transform.position;
+			break;
+		}
 	}
 	
 	void OnCollisionEnter2D (Collision2D other)
-	{		
+	{
 		switch (other.gameObject.tag) {
 		case "Deadly":
 			transform.localPosition = _respawnLocation;
@@ -170,7 +175,5 @@ public class PlayerController : MonoBehaviour
 		i = Random.Range (0, buttons.Count - 1);
 		_jumpButton3 = buttons [i];
 		buttons.RemoveAt (i);
-
-		Debug.Log ("randomize controls");
 	}
 }

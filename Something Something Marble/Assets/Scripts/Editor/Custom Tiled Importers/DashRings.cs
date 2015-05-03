@@ -66,7 +66,11 @@ class DashRings : Tiled2Unity.ICustomTiledImporter
 
 		// Position the asset
 		instance.transform.parent = gameObject.transform.parent;
-		instance.transform.localPosition = gameObject.transform.localPosition;
+		
+		Vector3 position = gameObject.transform.localPosition;
+		position.x += 0.35f;
+		position.y += 0.35f;
+		instance.transform.localPosition = position;
 		
 		// Remove the old object
 		GameObject.DestroyImmediate (gameObject);

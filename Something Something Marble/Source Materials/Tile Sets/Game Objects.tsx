@@ -320,4 +320,30 @@
  <tile id="43">
   <image width="70" height="70" source="../Sprites/Springs/spring_base_up_right.png"/>
  </tile>
+ <tile id="44">
+  <properties>
+   <property name="object" value="spikes"/>
+  </properties>
+  <image width="70" height="70" source="../Sprites/Environmental Dangers/spikes.png"/>
+ </tile>
+ <tile id="45">
+  <properties>
+   <property name="facing" value="left"/>
+   <property name="object" value="sign"/>
+  </properties>
+  <image width="70" height="70" source="../Sprites/Signs/signLeft.png"/>
+ </tile>
+ <tile id="46">
+  <properties>
+   <property name="facing" value="right"/>
+   <property name="object" value="sign"/>
+  </properties>
+  <image width="70" height="70" source="../Sprites/Signs/signRight.png"/>
+ </tile>
+ <tile id="47">
+  <properties>
+   <property name="object" value="goal"/>
+  </properties>
+  <image width="70" height="70" source="../Sprites/Signs/signExit.png"/>
+ </tile>
 </tileset>

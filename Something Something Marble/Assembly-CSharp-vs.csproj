@@ -47,27 +47,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Scripts\DashPanel.cs" />
-     <Compile Include="Assets\Scripts\DashRing.cs" />
-     <Compile Include="Assets\Scripts\JumpPad.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
-     <Compile Include="Assets\Scripts\Pause.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Game Objects\DashPanel.cs" />
+     <Compile Include="Assets\Scripts\Game Objects\DashRing.cs" />
+     <Compile Include="Assets\Scripts\Game Objects\LevelExit.cs" />
+     <Compile Include="Assets\Scripts\Game Objects\Spring.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\PseudoOneWayFloor.cs" />
-     <Compile Include="Assets\Scripts\PsuedoLoop.cs" />
-     <Compile Include="Assets\Scripts\Spring.cs" />
-     <Compile Include="Assets\Scripts\Tooltip.cs" />
+     <Compile Include="Assets\Scripts\User Interface\Menu.cs" />
+     <Compile Include="Assets\Scripts\User Interface\Pause.cs" />
+     <Compile Include="Assets\Scripts\User Interface\Tooltip.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-     <None Include="Assets\Tiled2Unity\Imported\level2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\Test Map.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\Test 1.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
