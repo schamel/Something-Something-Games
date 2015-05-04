@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy_attack.cs" />
      <Compile Include="Assets\Scripts\Game Objects\DashPanel.cs" />
      <Compile Include="Assets\Scripts\Game Objects\DashRing.cs" />
      <Compile Include="Assets\Scripts\Game Objects\LevelExit.cs" />
