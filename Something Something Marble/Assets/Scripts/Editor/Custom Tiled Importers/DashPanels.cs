@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +22,7 @@ class DashPanels : Tiled2Unity.ICustomTiledImporter
 		}
 
 		// Load the prefab asset
-		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/DashPanel - " + props ["type"] + ".prefab", typeof(GameObject));
+		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Game Objects/DashPanel - " + props ["type"] + ".prefab", typeof(GameObject));
 		
 		if (asset == null) {
 			return;

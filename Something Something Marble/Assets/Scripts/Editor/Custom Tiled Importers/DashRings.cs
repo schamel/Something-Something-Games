@@ -22,7 +22,7 @@ class DashRings : Tiled2Unity.ICustomTiledImporter
 		}
 
 		// Load the prefab asset
-		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/DashRing.prefab", typeof(GameObject));
+		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Game Objects/DashRing.prefab", typeof(GameObject));
 		
 		if (asset == null) {
 			return;

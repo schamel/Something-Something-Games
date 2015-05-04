@@ -7,7 +7,7 @@ public class Tooltip : MonoBehaviour
 	public string toolTipText;
 
 	private GUIStyle toolTipStyle;			
-	private bool showToolTip;
+	private bool showToolTip = false;
 	
 	private void Start ()
 	{

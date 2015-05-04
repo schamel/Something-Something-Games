@@ -17,7 +17,7 @@ class Spikes : Tiled2Unity.ICustomTiledImporter
 		}
 		
 		// Load the prefab asset
-		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Spikes.prefab", typeof(GameObject));
+		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Game Objects/Spikes.prefab", typeof(GameObject));
 		
 		if (asset == null) {
 			return;

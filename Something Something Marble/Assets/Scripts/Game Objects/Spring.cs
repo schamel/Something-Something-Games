@@ -4,7 +4,7 @@ using System.Collections;
 public class Spring : MonoBehaviour
 {
 	public float force;
-	public bool angled;
+	public bool angled = false;
 
 	private void OnTriggerEnter2D (Collider2D other)
 	{

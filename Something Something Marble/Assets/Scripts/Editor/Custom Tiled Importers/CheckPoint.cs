@@ -22,7 +22,7 @@ class CheckPoint : Tiled2Unity.ICustomTiledImporter
 		}
 		
 		// Load the prefab asset
-		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Check Point.prefab", typeof(GameObject));
+		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Game Objects/Check Point.prefab", typeof(GameObject));
 		
 		if (asset == null) {
 			return;

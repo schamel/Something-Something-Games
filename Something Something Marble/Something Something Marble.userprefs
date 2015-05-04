@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy_attack.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Editor\Custom Tiled Importers\DashPanels.cs">
     <Files>
-      <File FileName="Assets\Scripts\Enemy_attack.cs" Line="47" Column="121" />
-      <File FileName="Assets\Scripts\Enemy.cs" Line="18" Column="12" />
+      <File FileName="Assets\Scripts\Editor\Custom Tiled Importers\DashPanels.cs" Line="28" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

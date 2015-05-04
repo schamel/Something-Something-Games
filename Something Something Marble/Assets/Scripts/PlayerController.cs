@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 	private KeyCode _jumpButton2;
 	private KeyCode _jumpButton3;
 	
-	private bool _crazyControls;
+	private bool _crazyControls = false;
 	
 	// Other Member Variables
 	private Rigidbody2D _rigidbody;
@@ -40,8 +40,6 @@ public class PlayerController : MonoBehaviour
 		if (PlayerPrefs.GetString ("Character") == "Crazy Eight") {
 			GetComponent<SpriteRenderer> ().sprite = crazyEightSprite;
 			_crazyControls = true;
-		} else {
-			_crazyControls = false;
 		}
 		
 		// Set the default buttons
@@ -115,20 +113,16 @@ public class PlayerController : MonoBehaviour
 	
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		switch (other.gameObject.tag) {
-		case "Check Point":
+		if (other.gameObject.tag == "Check Point") {
 			_respawnLocation = other.gameObject.transform.position;
-			break;
 		}
 	}
 	
 	void OnCollisionEnter2D (Collision2D other)
 	{
-		switch (other.gameObject.tag) {
-		case "Deadly":
+		if (other.gameObject.tag == "Deadly") {
 			transform.localPosition = _respawnLocation;
-			_rigidbody.velocity = new Vector2 (0, 0);			
-			break;
+			_rigidbody.velocity = new Vector2 (0, 0);
 		}
 	}
 

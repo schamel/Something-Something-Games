@@ -57,7 +57,7 @@ class Spring : Tiled2Unity.ICustomTiledImporter
 		}
 		
 		// Load the prefab asset
-		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Spring - " + props ["type"] + (angled ? " Angled" : "") + ".prefab", typeof(GameObject));
+		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Game Objects/Spring - " + props ["type"] + (angled ? " Angled" : "") + ".prefab", typeof(GameObject));
 		
 		if (asset == null) {
 			return;

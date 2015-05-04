@@ -17,7 +17,7 @@ class LevelExit : Tiled2Unity.ICustomTiledImporter
 		}
 		
 		// Load the prefab asset
-		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Level Exit.prefab", typeof(GameObject));
+		UnityEngine.Object asset = AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/Game Objects/Level Exit.prefab", typeof(GameObject));
 		
 		if (asset == null) {
 			return;
